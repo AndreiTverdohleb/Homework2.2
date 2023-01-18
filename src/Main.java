@@ -112,12 +112,12 @@ public class Main {
         int cristinaSalary = 76230;
         int mashaSalary2 = (mashaSalary / 100) * 10 + mashaSalary;
         int differenceMasha = mashaSalary2 - mashaSalary;
-        System.out.println("Маша теперь получает " + mashaSalary2 + " рублей. Годовой доход вырос на " + differenceMasha + " рублей.");
+        System.out.println("Маша теперь получает " + mashaSalary2 + " рублей. Годовой доход вырос на " + differenceMasha * 12 + " рублей.");
         int denisSalary2 = (denisSalary / 100) * 10 + denisSalary;
         int differenceDenis = denisSalary2 - denisSalary;
-        System.out.println("Денис теперь получает " + denisSalary2 + " рублей. Годовой доход вырос на " + differenceDenis + " рублей.");
+        System.out.println("Денис теперь получает " + denisSalary2 + " рублей. Годовой доход вырос на " + differenceDenis * 12 + " рублей.");
         int cristinaSalary2 = (cristinaSalary / 100) * 10 + cristinaSalary;
         int differenceCristina = cristinaSalary2 - cristinaSalary;
-        System.out.println("Кристина теперь получает " + cristinaSalary2 + " рублей. Годовой доход вырос на " + differenceCristina + " рублей.");
+        System.out.println("Кристина теперь получает " + cristinaSalary2 + " рублей. Годовой доход вырос на " + differenceCristina * 12 + " рублей.");
     }
 }
