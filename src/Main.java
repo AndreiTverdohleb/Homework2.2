@@ -87,7 +87,8 @@ public class Main {
         short eggInG = 70;
         int allWeight = (bananas * weightOneBananasInGramms) + ((milkInMl / 100) * oneHundredMlMilkInG) + (iceCreamPlombir * iceCreamInGr) + (egg * eggInG);
         float allWeightInKg = allWeight / 1000f;
-        System.out.println(allWeightInKg);
+        System.out.println("Общий вес спортнапитка в граммах " + allWeight);
+        System.out.println("Общий вес спортнапитка в килограммах " + allWeightInKg);
         System.out.println(" ");
     }
     public static void task7() {
