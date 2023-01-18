@@ -52,7 +52,7 @@ public class Main {
     public static void task4 () {
         System.out.println("Задача 4");
         byte performance2min = 16;
-        byte performance1min = 16/2;
+        int performance1min = performance2min/2;
         int performance20min = performance1min * 20;
         System.out.println("За 20 мин. машина произвела " + performance20min + " штук бутылок");
         short oneDay = 24*60; // 24 часа умножели на 60 минут
@@ -95,12 +95,12 @@ public class Main {
         byte haveToLoseWeightInKg = 7;
         int haveToLoseWeigthInG = haveToLoseWeightInKg * 1000;
         int method1 = 250;
-        int daysNeedIfTwoHFeefty = haveToLoseWeigthInG / method1;
-        System.out.println("Eсли спортсмен будет терять по 250 грамм, ему понадобится " + daysNeedIfTwoHFeefty + " дней.");
+        int daysNeedIfTwoHundredFeefty = haveToLoseWeigthInG / method1;
+        System.out.println("Eсли спортсмен будет терять по 250 грамм, ему понадобится " + daysNeedIfTwoHundredFeefty + " дней.");
         int method2 = 500;
         int daysNeedIfFeeftyHandredGLose = haveToLoseWeigthInG / method2;
         System.out.println("Eсли спортсмен будет терять по 500 грамм, ему понадобится " + daysNeedIfFeeftyHandredGLose + " дней.");
-        int oneAParDaysNeed = (daysNeedIfTwoHFeefty + daysNeedIfFeeftyHandredGLose) / 2;
+        int oneAParDaysNeed = (daysNeedIfTwoHundredFeefty + daysNeedIfFeeftyHandredGLose) / 2;
         System.out.println("В среднем спортсмену понадобиться " + oneAParDaysNeed + " день.");
         System.out.println(" ");
     }
